@@ -1,3 +1,3 @@
-const Placeholder = require('./Placeholder');
+const Profile = require('./Profile');
 
-module.exports = { Placeholder }
+module.exports = { Profile }

@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Rallying Cry",
+        "description": "Your courageous voice rallys an Ally and instills a fresh fighting spirit amongst them. On your Turn, you may Sacrifice AP to help a Perceivable Ally automatically end being Incapacitated. You must Sacrifice an amount of AP equal to the number of Grievous Wounds they have suffered. That Ally also receives Advantage on their very next Defense Roll."
+    },
+    {
+        "name": "Avoidance",
+        "description": "When you are Wounded by an Attack Roll you may Sacrifice 1 AP to move up to a number of meters equal to your Finesse Aspect (minimum of 1m) away from your Opponent. Doing so negates any Reflexive Attack Rolls they may receive."
+    },
+    {
+        "name": "Unscathed",
+        "description": "Any time you suffer an effect that would cause you to take half damage on a Successful Reflex Roll, you may Sacrifice 1 AP to instead take no damage on a Successful Reflex Roll and half damage on a failed Reflex Roll. "
+    },
+    {
+        "name": "Celerity",
+        "description": "You may Dash two times each Turn by Sacrificing an additional AP. "
+    },
+    {
+        "name": "Battle Master",
+        "description": "You have seen how they move; what viscous arcs their limbs make as they contact their prey. You may use this knowledge against your Opponents. Exhaust 1 AP and make an Understanding Roll against one Opponent yocan Perceive. That Opponent must Succeed on an Influence Reflex Roll vs your Roll or unknowingly divulge some insight into their fighting capabilities. You and all Allies receive +1B for all Attack Rolls against this Opponent. Lasts as long as you Exhaust AP, or until your Concentration is broken. Each Opponent may only be affected by this Ability one time per Rest."
+    }
+]

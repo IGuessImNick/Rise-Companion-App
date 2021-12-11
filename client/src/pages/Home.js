@@ -118,7 +118,7 @@ const Home = () => {
             <Container>
                 <Row>
                     <Col>
-                        <Card style={{ height: '18rem', "color": "white" }}>
+                        <Card style={{ height: '18rem'}}>
                             <Card.Body>
                                 <Card.Title>Ability</Card.Title>
                                 <Card.Text></Card.Text>

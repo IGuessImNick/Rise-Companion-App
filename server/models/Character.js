@@ -1,4 +1,5 @@
 const { Schema, model } = require('mongoose');
+const { Powers } = require('./Powers');
 
 const characterSchema = new Schema({
     _id: {
@@ -31,12 +32,12 @@ const characterSchema = new Schema({
     grievous: {
         type: Number,
     },
-    abilities: [
+    Powers: [
         {
-            _id: {
-                type: Number
+            name: {
+                type: String
             },
-            abilityName: {
+            description: {
                 type: String
             },
         }

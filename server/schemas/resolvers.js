@@ -27,6 +27,16 @@ const resolvers = {
             // return user
         },
 
+        addCharacter: async (parent, { name, finesse, fortitude, influence, might, understanding, powers }) => {
+            const characterPowers = Powers.id;
+            const character = await Character.create({ name, finesse, fortitude, influence, might, understanding, characterPowers });
+            const token = signToken(character);
+            return { token, character };
+            
+            // const user = await User.create({ username, email, password });
+            // return user
+        },
+
         removeUser: async (parent, { userId }) => {
             return await User.findOneAndDelete({ _id: userId });
         },

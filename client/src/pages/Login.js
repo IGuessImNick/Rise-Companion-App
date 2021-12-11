@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useMutation } from '@apollo/client';
 import { LOGIN_USER } from '../utils/mutations';
+import background from '../images/rise-companion-app-background.jpg'
 
 import Auth from '../utils/auth';
 
@@ -41,8 +42,8 @@ const Login = (props) => {
     };
   
     return (
-      <main className="flex-row justify-center mb-4">
-        <div className="col-12 col-lg-10">
+      <main className="flex-row justify-center mb-4" style={{ backgroundImage: `url(${background})` }}>
+        <div className='col-12 col-lg-10 vh-100 vw-100'>
           <div className="card">
             <h4 className="card-header bg-dark text-light p-2">Login</h4>
             <div className="card-body">

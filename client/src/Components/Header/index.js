@@ -9,18 +9,16 @@ function Header() {
         Auth.logout();
     };
     return(
-        <Navbar bg="light" expand="lg" className="fixed-top mb-3">
+        <Navbar bg="black" expand="lg" className="fixed-top mb-3">
             <Container>
-                <Navbar.Brand href="#home">Rise</Navbar.Brand>
+                <Navbar.Brand href="#home" style={{ "color": "white"}}>Rise</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="me-auto">
-                    <Nav.Link href="#home">Home</Nav.Link>
-                    <Nav.Link href="#link">Character</Nav.Link>
-                    <NavDropdown title="Login" id="basic-nav-dropdown">
-                    <NavDropdown.Item href="/login">Login</NavDropdown.Item>
-                    <NavDropdown.Item href="/signup">Signup</NavDropdown.Item>
-                    </NavDropdown>
+                    <Nav.Link href="#link" style={{ "color": "white"}}>Character</Nav.Link>
+                    <Nav.Link href="/login" style={{ "color": "white"}}>Login</Nav.Link>
+                    <Nav.Link href="/signup" style={{ "color": "white"}}>Signup</Nav.Link>
+                    
                     <Button onClick={logout}>Logout</Button>
                 </Nav>
                 </Navbar.Collapse>

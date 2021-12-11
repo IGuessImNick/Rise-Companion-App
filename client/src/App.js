@@ -1,10 +1,9 @@
 import React, { Fragment } from 'react'
 import Header from './Components/Header';
 import { Container, Row, Col, Form } from 'react-bootstrap';
-import 'bootstrap/dist/css/bootstrap.min.css'
-// import Aspects from './Components/Aspects';
-// import Vitality from './Components/Vitality';
-// import Powers from './Components/Powers';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './App.css';
+
 
 import {
   ApolloClient,

@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 mongoose.connect(
-  process.env.MONGODB_URI || 'mongodb+srv://njskinner@ucdavis.edu:HSQcFmjC%21Cp3HrFK%21https://cloud.mongodb.com/v2/618194fd63b0f52be0663c6c#clusters/detail/RiseApp/RiseApp?retryWrites=true&w=majority',
+  process.env.MONGODB_URI || 'mongodb://localhost/riseapp',
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,

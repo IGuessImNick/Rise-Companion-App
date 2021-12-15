@@ -2,7 +2,7 @@
 
 ### [Live Site] https://stormy-mountain-53373.herokuapp.com/
 
-![Thumbnail](./client/images/3.png)
+![Thumbnail](./client/src/images/3.png)
 
 -----------
 # Description

@@ -9,8 +9,7 @@ mongoose.connect(
     useFindAndModify: false,
   }
 )
-  .then(() => console.log("Database Connected Successfully"))
-  .catch(err => console.log(err));
+
 
 module.exports = mongoose.connection;
 
